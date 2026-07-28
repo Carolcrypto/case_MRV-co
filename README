@@ -1,0 +1,244 @@
+# 🏠 Diagnóstico Executivo Comercial MRV
+
+## 📌 Sobre o Projeto
+
+Este projeto foi desenvolvido como uma solução de **análise de dados e Business Analytics**, com o objetivo de avaliar a performance comercial de empreendimentos, identificar oportunidades de melhoria e apoiar a tomada de decisão estratégica.
+
+A aplicação apresenta um diagnóstico executivo utilizando indicadores comerciais, explorando relações entre variáveis como:
+
+* Volume de leads;
+* Investimento em marketing;
+* Conversão do funil comercial;
+* Volume e perfil da equipe de corretores;
+* Turnover;
+* Produtividade;
+* VSO (Vendas Sob Oferta);
+* Lançamento de empreendimentos.
+
+O projeto transforma dados brutos em insights de negócio por meio de análises exploratórias, visualizações interativas e simulações de cenários.
+
+---
+
+# 🎯 Objetivos da Análise
+
+A solução busca responder perguntas estratégicas:
+
+* Quais cidades apresentam maior atenção?
+* Quais cidades possuem melhor desempenho e podem ser consideradas benchmarks?
+* Quais indicadores apresentam maior relação com o VSO?
+* O investimento em marketing influencia a geração de leads?
+* O tamanho e perfil da equipe comercial impactam os resultados?
+* O turnover influencia a produtividade?
+* Quais iniciativas possuem maior potencial de retorno?
+
+---
+
+# 📊 Funcionalidades
+
+## 1. Diagnóstico Executivo
+
+Apresentação dos principais indicadores:
+
+* Quantidade de registros analisados;
+* VSO médio;
+* Volume total de leads;
+* Média de corretores;
+* Ranking de cidades por desempenho.
+
+---
+
+## 2. Análise Exploratória
+
+Foram desenvolvidas análises para compreender relações entre indicadores:
+
+### Correlação de Variáveis
+
+Avaliação da relação entre:
+
+* VSO;
+* Leads;
+* Marketing;
+* Corretores;
+* Turnover;
+* Produtividade da equipe.
+
+### Marketing x Leads
+
+Análise do impacto do investimento em marketing sobre a geração de oportunidades comerciais.
+
+### Equipe Comercial
+
+Avaliação da relação entre:
+
+* Quantidade de corretores;
+* Produtividade;
+* Desempenho comercial.
+
+### Turnover x Produtividade
+
+Análise do impacto da rotatividade da equipe na eficiência comercial.
+
+### Lançamento de Empreendimentos
+
+Avaliação do efeito de novos lançamentos sobre estoque, leads e vendas.
+
+---
+
+# 💡 Principais Entregáveis
+
+A aplicação apresenta:
+
+✅ Diagnóstico executivo da base
+✅ Identificação de benchmarks
+✅ Identificação de cidades críticas
+✅ Análise exploratória dos indicadores
+✅ Insights de negócio
+✅ Sensibilidade das variáveis
+✅ Plano de ação recomendado
+✅ Simulação de cenários futuros
+
+---
+
+# 🖥️ Tecnologias Utilizadas
+
+## Linguagem
+
+* Python 3.14
+
+## Bibliotecas
+
+* Streamlit → Construção do dashboard interativo
+* Pandas → Manipulação e tratamento dos dados
+* NumPy → Operações numéricas
+* Plotly → Visualizações interativas
+* OpenPyXL → Leitura de arquivos Excel
+* Scikit-learn → Apoio às análises estatísticas
+* SciPy → Recursos matemáticos e estatísticos
+
+---
+
+# 📂 Estrutura do Projeto
+
+```
+case_mrv/
+│
+├── app.py
+│
+├── dados/
+│   └── Base de Dados- Case Planning & Business Analytics.xlsx
+│
+├── src/
+│   │
+│   ├── leitura.py
+│   ├── tratamento.py
+│   ├── diagnostico.py
+│   ├── exploracao.py
+│   ├── analise.py
+│   ├── insights.py
+│   ├── simulacoes.py
+│   └── graficos.py
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Como Executar o Projeto
+
+## 1. Clone o repositório
+
+```bash
+git clone <url-do-repositorio>
+```
+
+---
+
+## 2. Acesse a pasta do projeto
+
+```bash
+cd case_mrv
+```
+
+---
+
+## 3. Crie o ambiente virtual
+
+```bash
+python3 -m venv venv
+```
+
+---
+
+## 4. Ative o ambiente virtual
+
+### Mac/Linux
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 5. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 6. Execute a aplicação
+
+```bash
+streamlit run app.py
+```
+
+A aplicação estará disponível em:
+
+```
+http://localhost:8501
+```
+
+---
+
+# 📈 Simulação de Cenários
+
+O dashboard permite testar hipóteses de negócio, como:
+
+* Aumento da conversão comercial;
+* Impacto esperado no VSO;
+* Avaliação de possíveis ganhos através de melhorias operacionais.
+
+O objetivo é apoiar decisões baseadas em dados através de cenários simples e interpretáveis.
+
+---
+
+# ⚠️ Limitações
+
+Algumas limitações consideradas:
+
+* Correlação não representa necessariamente causalidade;
+* A análise depende da qualidade dos dados disponibilizados;
+* Algumas hipóteses precisam de validação operacional;
+* Informações adicionais poderiam complementar decisões estratégicas, como:
+
+  * Perfil dos clientes;
+  * Histórico comercial;
+  * Dados de concorrência;
+  * Informações regionais.
+
+---
+
+# 👩‍💻 Desenvolvimento
+
+Projeto desenvolvido para análise de dados aplicada a **Business Analytics**, utilizando dados comerciais para geração de insights estratégicos e apoio à tomada de decisão.
+
+---
+
+## Autora
+
+**Carolina Oliveira Fagundes**
+
+Desenvolvimento Full Stack | Dados | Business Analytics
