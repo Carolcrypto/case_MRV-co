@@ -1,0 +1,49 @@
+# 🏠 Case MRV - Diagnóstico Executivo Comercial
+
+Projeto desenvolvido para análise de dados comerciais utilizando Python e Streamlit.
+
+O objetivo é analisar indicadores de performance, identificar oportunidades de melhoria e gerar insights para apoio à tomada de decisão.
+
+---
+
+# 📂 Estrutura do Projeto
+case_mrv/
+│
+├── app.py
+│
+├── dados/
+│ └── Base de Dados- Case Planning & Business Analytics.xlsx
+│
+├── src/
+│ │
+│ ├── init.py
+│ │
+│ ├── leitura.py
+│ │ └── Responsável pela leitura da base de dados Excel/CSV.
+│ │
+│ ├── tratamento.py
+│ │ └── Funções de limpeza, padronização e preparação dos dados.
+│ │
+│ ├── diagnostico.py
+│ │ └── Análises relacionadas ao diagnóstico executivo.
+│ │
+│ ├── exploracao.py
+│ │ └── Análises exploratórias e relacionamento entre indicadores.
+│ │
+│ ├── analise.py
+│ │ └── Cálculos e análises complementares.
+│ │
+│ ├── insights.py
+│ │ └── Geração dos principais insights encontrados.
+│ │
+│ ├── graficos.py
+│ │ └── Funções responsáveis pelas visualizações.
+│ │
+│ └── simulacoes.py
+│ └── Cenários e simulações de impacto no VSO.
+│
+├── requirements.txt
+│
+└── README.md
+
+---
