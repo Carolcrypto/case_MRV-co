@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from src.leitura import carregar_dados
-from src.simulacoes import simular_vso
+from dados.leitura import carregar_dados
+from dados.simulacoes import simular_vso
 
 
 # ==========================================
