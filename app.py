@@ -1,5 +1,3 @@
-O arquivo app.py tem a estruturação abaixo, ela é responsável pela estrutura dos gráficos da streamlit:
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
